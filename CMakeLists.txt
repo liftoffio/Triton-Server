@@ -114,7 +114,7 @@ FetchContent_Declare(
 )
 FetchContent_Declare(
   repo-third-party
-  GIT_REPOSITORY https://github.com/triton-inference-server/third_party.git
+  GIT_REPOSITORY "https://github.com/liftoffio/triton-third-party.git"
   GIT_TAG ${TRITON_THIRD_PARTY_REPO_TAG}
 )
 
