@@ -1083,7 +1083,7 @@ class InferHandlerState {
 
   ~InferHandlerState() { ClearTraceTimestamps(); }
 
-  bool IsGrpcContextCancelled() { return context_->IsCancelled(); }
+  bool IsGrpcContextCancelled() { return false; }
 
   void Reset(
       const std::shared_ptr<Context>& context, Steps start_step = Steps::START)
